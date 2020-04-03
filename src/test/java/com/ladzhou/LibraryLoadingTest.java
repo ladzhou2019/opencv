@@ -48,7 +48,7 @@ public class LibraryLoadingTest {
 
     @Override
     public Class<?> loadClass(String name) throws ClassNotFoundException {
-      if (name.startsWith("nu.pattern") || name.startsWith("org.opencv")) {
+      if (name.startsWith("com.ladzhou") || name.startsWith("org.opencv")) {
         return super.findClass(name);
       }
 

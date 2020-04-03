@@ -53,13 +53,13 @@ public class OpenCV {
             case LINUX:
                 switch (arch) {
                     case X86_32:
-                        location = "/com/grgbanking/opencv/linux/x86_32/libopencv_java420.so";
+                        location = "/com/ladzhou/opencv/linux/x86_32/libopencv_java420.so";
                         break;
                     case X86_64:
-                        location = "/com/grgbanking/opencv/linux/x86_64/libopencv_java420.so";
+                        location = "/com/ladzhou/opencv/linux/x86_64/libopencv_java420.so";
                         break;
                     case ARMv8:
-                        location = "/nu/pattern/opencv/linux/ARMv8/libopencv_java420.so";
+                        location = "/com/ladzhou/opencv/linux/ARMv8/libopencv_java420.so";
                         break;
                     default:
                         throw new UnsupportedPlatformException(os, arch);
@@ -68,7 +68,7 @@ public class OpenCV {
             case OSX:
                 switch (arch) {
                     case X86_64:
-                        location = "/nu/pattern/opencv/osx/x86_64/libopencv_java420.dylib";
+                        location = "/com/ladzhou/opencv/osx/x86_64/libopencv_java420.dylib";
                         break;
                     default:
                         throw new UnsupportedPlatformException(os, arch);
@@ -77,10 +77,10 @@ public class OpenCV {
             case WINDOWS:
                 switch (arch) {
                     case X86_32:
-                        location = "/nu/pattern/opencv/windows/x86_32/opencv_java420.dll";
+                        location = "/com/ladzhou/opencv/windows/x86_32/opencv_java420.dll";
                         break;
                     case X86_64:
-                        location = "/com/grgbanking/opencv/windows/x86_64/opencv_java420.dll";
+                        location = "/com/ladzhou/opencv/windows/x86_64/opencv_java420.dll";
                         break;
                     default:
                         throw new UnsupportedPlatformException(os, arch);
