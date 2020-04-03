@@ -1,4 +1,4 @@
-# OpenCV 2.4.9 (packaged by [Pattern](http://pattern.nu))
+# OpenCV 4.20 (packaged by [Pattern](http://pattern.nu))
 
 [![Build Status](https://travis-ci.org/PatternConsulting/opencv.svg?branch=master)](https://travis-ci.org/PatternConsulting/opencv)
 
