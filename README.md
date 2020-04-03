@@ -28,7 +28,7 @@ Pattern's OpenCV package is added to your project as any other dependency.
     <dependency>
       <groupId>nu.pattern</groupId>
       <artifactId>opencv</artifactId>
-      <version>2.4.9-7</version>
+      <version>4.20</version>
     </dependency>
     
     <!-- ... -->
