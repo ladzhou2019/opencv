@@ -67,19 +67,20 @@
     </license>
   </licenses>
 
-  <scm>
-    <url>http://github.com/openpnp/opencv</url>
-    <connection>scm:git:http://github.com/openpnp/opencv.git</connection>
-    <developerConnection>scm:git:http://github.com/openpnp/opencv.git</developerConnection>
-    <tag>v3.2.0-1</tag>
-  </scm>
-
   <issueManagement>
     <system>GitHub</system>
-    <url>http://github.com/openpnp/opencv/issues</url>
+    <url>http://github.com/ladzhou2019/opencv/issues</url>
   </issueManagement>
 
   <developers>
+    <developer>
+      <id>ladzhou</id>
+      <name>Jason von Nieda</name>
+      <email>ladzhou@qq.com</email>
+      <roles>
+        <role>maintainer</role>
+      </roles>
+    </developer>
     <developer>
       <id>vonnieda</id>
       <name>Jason von Nieda</name>
@@ -102,13 +103,6 @@
     </developer>
   </developers>
 
-	<distributionManagement>
-	  <snapshotRepository>
-	    <id>ossrh</id>
-	    <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-	  </snapshotRepository>
-	</distributionManagement>
-
   <build>
     <plugins>
 
@@ -130,7 +124,7 @@
         <extensions>true</extensions>
         <configuration>
           <instructions>
-            <Export-Package>nu.pattern.*, org.opencv.*</Export-Package>
+            <Export-Package>com.ladzhou.*, org.opencv.*</Export-Package>
             <Import-Package>!sun.reflect.*</Import-Package>
           </instructions>
         </configuration>
